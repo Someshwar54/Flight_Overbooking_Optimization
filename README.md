@@ -2,20 +2,20 @@
 
 An end-to-end AI-powered revenue optimization platform for airlines. This system predicts passenger no-show probabilities using machine learning and recommends optimal overbooking levels to maximize revenue while minimizing denied boarding risks.
 
-## 🚀 Overview
+##  Overview
 Airlines often face revenue loss due to empty seats from passenger no-shows. This project provides a production-grade solution that:
 1. **Predicts** no-show risks at the individual passenger level.
 2. **Optimizes** overbooking counts using a dynamic ML-driven engine.
 3. **Simulates** financial impact comparing different business strategies.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Backend**: FastAPI (Python), SQLAlchemy, SQLite
 - **Frontend**: Streamlit, Plotly
 - **Machine Learning**: XGBoost, Scikit-Learn, Pandas, NumPy
 - **Infrastructure**: Docker, Docker Compose
 - **Analysis**: Jupyter Notebooks
 
-## 📂 Project Structure
+##  Project Structure
 ```bash
 ├── artifacts/             # Trained models and encoders
 ├── backend/               # FastAPI application
@@ -32,7 +32,7 @@ Airlines often face revenue loss due to empty seats from passenger no-shows. Thi
 └── requirements.txt       # Project dependencies
 ```
 
-## 📊 Features
+##  Features
 ### 1. No-Show Prediction
 Uses an **XGBoost** model trained on synthetic and historical booking data to calculate a probability score (0-1) for every passenger. Features include booking lead time, route demand, seasonality, and passenger demographics.
 
@@ -42,7 +42,7 @@ Interactive dashboard allowing users to:
 - **Simulate**: Compare "No Overbooking", "Fixed Overbooking", and "Dynamic ML Overbooking" strategies.
 - **Analyze**: Visualize the trade-off between empty seats (wasted capacity) and bumped passengers (compensation costs).
 
-## 🏃 Getting Started
+##  Getting Started
 
 ### Using Docker (Recommended)
 Launch the entire stack with one command:
@@ -66,11 +66,11 @@ docker-compose up --build
    streamlit run frontend/app.py
    ```
 
-## 📈 Business Insights
+##  Business Insights
 Dynamic overbooking consistently outperforms fixed strategies by:
 - **Reducing Empty Seats**: Increasing utilization by selling exactly what the model predicts will be vacant.
 - **Lowering Costs**: Minimizing expensive denied boarding compensations by avoiding aggressive overbooking on low-risk flights.
 - **Maximizing Net Revenue**: Achieving a balanced "sweet spot" for profit.
 
 ---
-Built with ❤️ for Airline Revenue Management.
+Built for Airline Revenue Management.
