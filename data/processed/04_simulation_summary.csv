@@ -1,0 +1,4 @@
+Strategy,Total_Net_Revenue,Total_Bumped,Total_Empty_Seats
+No Overbooking,400000,0,102
+Fixed Overbooking (+5),412800,18,21
+Dynamic ML Overbooking,407800,1,62
